@@ -8,5 +8,6 @@ public class InGameScreen : ScreenBase
     {
         App.screenManager.Show<MenuScreen>();
         Hide();
+        App.gameManager.ReturnToMenu();
     }
 }
