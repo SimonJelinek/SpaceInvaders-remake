@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class PlayerBehavior : MonoBehaviour
 {
+    public GameObject bullet;
     private Rigidbody2D rb;
 
+    public Vector3 offset;
     public float speed;
     float xPos;
 
@@ -17,6 +19,11 @@ public class PlayerBehavior : MonoBehaviour
     void Update()
     {
         xPos = Input.GetAxis("Horizontal");
+
+        if (Input.GetKeyDown(KeyCode.Space)) 
+        {
+            Instantiate(bullet,transform.position+offset, Quaternion.identity, App.gameManager.parent);
+        }
     }
 
     void FixedUpdate() 
