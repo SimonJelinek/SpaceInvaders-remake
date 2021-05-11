@@ -11,15 +11,22 @@ public class EnemyBehavior : MonoBehaviour
     public float maxR;
     public float speed;
     float time = 0;
+    int spawnTime;
+
+    void Start()
+    {
+        spawnTime = SpawnTime();
+    }
 
     void Update()
     {
         time += Time.deltaTime;
 
-        if (time > 2)
+        if (time > spawnTime)
         {
             Instantiate(bullet, transform.position, Quaternion.identity, App.gameManager.parent);
             time = 0;
+            spawnTime = SpawnTime();
         }
     }
 
@@ -36,5 +43,10 @@ public class EnemyBehavior : MonoBehaviour
         }
 
         transform.position += new Vector3(dir*speed,0,0);
+    }
+
+    int SpawnTime()
+    {
+        return Random.Range(1, 40);
     }
 }
