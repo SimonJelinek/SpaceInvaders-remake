@@ -11,11 +11,12 @@ public class PlayerBehavior : MonoBehaviour
     public float speed;
     float xPos;
 
-    int hp=3;
+    public int hp=3;
 
     void Awake() 
     {
         rb = GetComponent<Rigidbody2D>();
+        App.playerBehavior = this;
     }
 
     void Update()
@@ -44,6 +45,7 @@ public class PlayerBehavior : MonoBehaviour
     void HitByBullet(int c)
     {
         hp -= c;
+        App.inGameScreen.UpdateTxt();
         if (hp == 0)
         {
             App.gameManager.GameOver();

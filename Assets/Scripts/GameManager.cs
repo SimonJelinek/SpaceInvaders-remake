@@ -16,11 +16,6 @@ public class GameManager : MonoBehaviour
         App.gameManager = this;
     }
 
-    void Update()
-    {
-        Debug.Log(enemiesAlive);
-    }
-
     void Start() 
     {
         App.screenManager.Show<MenuScreen>();

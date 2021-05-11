@@ -10,6 +10,7 @@ public class WinScreen : ScreenBase
         App.gameManager.StartGame();
         Hide();
         App.gameManager.ResetEnemiesAlive();
+        App.inGameScreen.UpdateTxt();
     }
 
     public void ReturnToMenu()
@@ -17,5 +18,6 @@ public class WinScreen : ScreenBase
         App.screenManager.Show<MenuScreen>();
         Hide();
         App.gameManager.ResetEnemiesAlive();
+        App.inGameScreen.UpdateTxt();
     }
 }
