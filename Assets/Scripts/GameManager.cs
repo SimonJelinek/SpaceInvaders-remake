@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public GameObject player;
     public GameObject enemies;
+    public GameObject border;
     public Transform parent;
 
     void Awake() 
@@ -22,6 +23,7 @@ public class GameManager : MonoBehaviour
     public void StartGame() 
     {
         Instantiate(player, new Vector3(0,-4.25f, 0), Quaternion.identity, parent);
+        Instantiate(border, new Vector3(), Quaternion.identity, parent);
         InstantiateEnemies();
     }
 

@@ -16,7 +16,7 @@ public class EnemyBehavior : MonoBehaviour
     {
         time += Time.deltaTime;
 
-        if (time > 1)
+        if (time > 2)
         {
             Instantiate(bullet, transform.position, Quaternion.identity, App.gameManager.parent);
             time = 0;
