@@ -11,6 +11,8 @@ public class PlayerBehavior : MonoBehaviour
     public float speed;
     float xPos;
 
+    int hp=3;
+
     void Awake() 
     {
         rb = GetComponent<Rigidbody2D>();
@@ -29,5 +31,22 @@ public class PlayerBehavior : MonoBehaviour
     void FixedUpdate() 
     {
         rb.velocity = new Vector3(xPos*speed,0,0);
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "EnemyBullet")
+        {
+            HitByBullet(1);
+        }
+    }
+
+    void HitByBullet(int c)
+    {
+        hp -= c;
+        if (hp == 0)
+        {
+            App.gameManager.GameOver();
+        }
     }
 }

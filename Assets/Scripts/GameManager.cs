@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
     {
         App.screenManager.Show<MenuScreen>();
         App.screenManager.Hide<InGameScreen>();
+        App.screenManager.Hide<GameOverScreen>();
     }
 
     public void StartGame() 
@@ -38,5 +39,12 @@ public class GameManager : MonoBehaviour
     void InstantiateEnemies()
     {
         Instantiate(enemies, new Vector3(), Quaternion.identity, parent);
+    }
+
+    public void GameOver()
+    {
+        App.screenManager.Show<GameOverScreen>();
+        App.screenManager.Hide<InGameScreen>();
+        ReturnToMenu();
     }
 }

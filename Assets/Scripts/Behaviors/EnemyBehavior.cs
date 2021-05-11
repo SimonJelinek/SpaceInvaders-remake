@@ -13,7 +13,7 @@ public class EnemyBehavior : MonoBehaviour
     float time = 0;
 
     int spawnTime;
-    int hp = 100;
+    int hp = 2;
 
     void Start()
     {
@@ -65,7 +65,7 @@ public class EnemyBehavior : MonoBehaviour
     {
         if (collision.gameObject.tag == "Bullet")
         {
-            HitByBullet(50);
+            HitByBullet(1);
         }
     }
 }
