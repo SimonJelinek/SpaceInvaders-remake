@@ -23,14 +23,15 @@ public class GameManager : MonoBehaviour
         App.screenManager.Hide<InGameScreen>();
         App.screenManager.Hide<GameOverScreen>();
         App.screenManager.Hide<WinScreen>();
+        App.screenManager.Hide<SettingsScreen>();
     }
 
     public void StartGame() 
     {
-        Instantiate(player, new Vector3(0,-4.25f, 0), Quaternion.identity, parent);
+        Instantiate(player, new Vector3(0, -3.43f, 0), Quaternion.identity, parent);
         Instantiate(border, new Vector3(), Quaternion.identity, parent);
-        Instantiate(obstacle, new Vector3(-1.5f,-3.33f,0), Quaternion.identity, parent);
-        Instantiate(obstacle, new Vector3(1.5f, -3.33f, 0), Quaternion.identity, parent);
+        Instantiate(obstacle, new Vector3(-1.5f, -2.65f, 0), Quaternion.identity, parent);
+        Instantiate(obstacle, new Vector3(1.5f, -2.65f, 0), Quaternion.identity, parent);
         InstantiateEnemies();
     }
 

@@ -4,11 +4,27 @@ using UnityEngine;
 
 public class MenuScreen : ScreenBase
 {
+    bool settings = false;
+
     public void StartGame() 
     {       
         App.screenManager.Show<InGameScreen>();
         Hide();
         App.gameManager.StartGame();
         App.inGameScreen.UpdateTxt();
+        App.screenManager.Hide<SettingsScreen>();
+    }
+
+    public void ShowSettings()
+    {
+        settings =! settings;
+        if (settings)
+        {
+            App.screenManager.Show<SettingsScreen>();
+        }
+        else
+        {
+            App.screenManager.Hide<SettingsScreen>();
+        }
     }
 }
