@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public GameObject player;
     public GameObject enemies;
     public GameObject border;
+    public GameObject obstacle;
     public Transform parent;
 
     int enemiesAlive = 72;
@@ -28,6 +29,8 @@ public class GameManager : MonoBehaviour
     {
         Instantiate(player, new Vector3(0,-4.25f, 0), Quaternion.identity, parent);
         Instantiate(border, new Vector3(), Quaternion.identity, parent);
+        Instantiate(obstacle, new Vector3(-1.5f,-3.33f,0), Quaternion.identity, parent);
+        Instantiate(obstacle, new Vector3(1.5f, -3.33f, 0), Quaternion.identity, parent);
         InstantiateEnemies();
     }
 
