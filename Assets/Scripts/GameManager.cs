@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public GameObject player;
+    public GameObject enemies;
     public Transform parent;
 
     void Awake() 
@@ -21,6 +22,7 @@ public class GameManager : MonoBehaviour
     public void StartGame() 
     {
         Instantiate(player, new Vector3(0,-4.25f, 0), Quaternion.identity, parent);
+        InstantiateEnemies();
     }
 
     public void ReturnToMenu() 
@@ -29,5 +31,10 @@ public class GameManager : MonoBehaviour
         {
             Destroy(child.gameObject);
         }
+    }
+
+    void InstantiateEnemies()
+    {
+        Instantiate(enemies, new Vector3(), Quaternion.identity, parent);
     }
 }
