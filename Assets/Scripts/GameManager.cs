@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     public GameObject obstacle;
     public Transform parent;
 
-    int enemiesAlive = 72;
+    int enemiesAlive = 64;
 
     void Awake() 
     {
@@ -72,6 +72,6 @@ public class GameManager : MonoBehaviour
 
     public void ResetEnemiesAlive()
     {
-        enemiesAlive = 72;
+        enemiesAlive = 64;
     }
 }
