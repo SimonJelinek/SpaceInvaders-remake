@@ -490,6 +490,7 @@ MonoBehaviour:
   player: {fileID: 2733261486509249557, guid: 1692070d3682783319699377225c61b6, type: 3}
   enemies: {fileID: 3351270728342263283, guid: 30021e749dfef9c489e3ebcf83d82e9b, type: 3}
   border: {fileID: 6164398025994766983, guid: a314330d08cc63648879e830a2491e6b, type: 3}
+  obstacle: {fileID: 402924083955637051, guid: 9d3f1fc98952ec741bc430fc69f270a7, type: 3}
   parent: {fileID: 206469284}
 --- !u!4 &132474258
 Transform:
