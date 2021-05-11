@@ -9,9 +9,16 @@ public class GameManager : MonoBehaviour
     public GameObject border;
     public Transform parent;
 
+    int enemiesAlive = 72;
+
     void Awake() 
     {
         App.gameManager = this;
+    }
+
+    void Update()
+    {
+        Debug.Log(enemiesAlive);
     }
 
     void Start() 
@@ -19,6 +26,7 @@ public class GameManager : MonoBehaviour
         App.screenManager.Show<MenuScreen>();
         App.screenManager.Hide<InGameScreen>();
         App.screenManager.Hide<GameOverScreen>();
+        App.screenManager.Hide<WinScreen>();
     }
 
     public void StartGame() 
@@ -41,10 +49,31 @@ public class GameManager : MonoBehaviour
         Instantiate(enemies, new Vector3(), Quaternion.identity, parent);
     }
 
+    public void KillEnemy()
+    {
+        enemiesAlive -= 1;
+        if (enemiesAlive <= 0)
+        {
+            Win();
+        }
+    }
+
+    public void Win()
+    {
+        App.screenManager.Show<WinScreen>();
+        App.screenManager.Hide<InGameScreen>();
+        ReturnToMenu();
+    }
+
     public void GameOver()
     {
         App.screenManager.Show<GameOverScreen>();
         App.screenManager.Hide<InGameScreen>();
         ReturnToMenu();
+    }
+
+    public void ResetEnemiesAlive()
+    {
+        enemiesAlive = 72;
     }
 }

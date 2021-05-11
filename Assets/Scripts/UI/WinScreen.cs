@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameOverScreen : ScreenBase
+public class WinScreen : ScreenBase
 {
     public void RestartGame()
     {
@@ -11,7 +11,7 @@ public class GameOverScreen : ScreenBase
         Hide();
         App.gameManager.ResetEnemiesAlive();
     }
-  
+
     public void ReturnToMenu()
     {
         App.screenManager.Show<MenuScreen>();

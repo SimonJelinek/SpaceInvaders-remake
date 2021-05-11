@@ -4,10 +4,5 @@ using UnityEngine;
 
 public class InGameScreen : ScreenBase
 {
-    public void ReturnToMenu() 
-    {
-        App.screenManager.Show<MenuScreen>();
-        Hide();
-        App.gameManager.ReturnToMenu();
-    }
+
 }

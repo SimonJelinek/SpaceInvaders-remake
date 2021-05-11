@@ -58,6 +58,7 @@ public class EnemyBehavior : MonoBehaviour
         if (hp <= 0)
         {
             Destroy(gameObject);
+            App.gameManager.KillEnemy();
         }
     }
 
