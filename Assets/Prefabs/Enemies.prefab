@@ -116,7 +116,7 @@ GameObject:
   - component: {fileID: 8058788992651800540}
   m_Layer: 0
   m_Name: Enemy (14)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 6575400198373961705}
   m_Layer: 0
   m_Name: Enemy (65)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -366,7 +366,7 @@ GameObject:
   - component: {fileID: 175323336654471557}
   m_Layer: 0
   m_Name: Enemy (60)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -491,7 +491,7 @@ GameObject:
   - component: {fileID: 9043439633453786441}
   m_Layer: 0
   m_Name: Enemy (25)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -616,7 +616,7 @@ GameObject:
   - component: {fileID: 1900415107385015511}
   m_Layer: 0
   m_Name: Enemy (10)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -741,7 +741,7 @@ GameObject:
   - component: {fileID: 8256991228688884761}
   m_Layer: 0
   m_Name: Enemy (24)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -866,7 +866,7 @@ GameObject:
   - component: {fileID: 819809365568620432}
   m_Layer: 0
   m_Name: Enemy (17)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -991,7 +991,7 @@ GameObject:
   - component: {fileID: 4389110443568633045}
   m_Layer: 0
   m_Name: Enemy (68)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1116,7 +1116,7 @@ GameObject:
   - component: {fileID: 8947174937857134117}
   m_Layer: 0
   m_Name: Enemy (64)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1241,7 +1241,7 @@ GameObject:
   - component: {fileID: 2007405655477058244}
   m_Layer: 0
   m_Name: Enemy (46)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1366,7 +1366,7 @@ GameObject:
   - component: {fileID: 14111214165563857}
   m_Layer: 0
   m_Name: Enemy (6)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1491,7 +1491,7 @@ GameObject:
   - component: {fileID: 1993571034070477438}
   m_Layer: 0
   m_Name: Enemy (8)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1616,7 +1616,7 @@ GameObject:
   - component: {fileID: 1770705194982854505}
   m_Layer: 0
   m_Name: Enemy (32)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1741,7 +1741,7 @@ GameObject:
   - component: {fileID: 6951133153631858698}
   m_Layer: 0
   m_Name: Enemy (56)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1866,7 +1866,7 @@ GameObject:
   - component: {fileID: 5870954383786184609}
   m_Layer: 0
   m_Name: Enemy (7)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1991,7 +1991,7 @@ GameObject:
   - component: {fileID: 8332256675029230296}
   m_Layer: 0
   m_Name: Enemy (15)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2116,7 +2116,7 @@ GameObject:
   - component: {fileID: 8748705066650093777}
   m_Layer: 0
   m_Name: Enemy (18)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2241,7 +2241,7 @@ GameObject:
   - component: {fileID: 6169094058968515980}
   m_Layer: 0
   m_Name: Enemy (49)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2366,7 +2366,7 @@ GameObject:
   - component: {fileID: 7492966147115693678}
   m_Layer: 0
   m_Name: Enemy (16)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2491,7 +2491,7 @@ GameObject:
   - component: {fileID: 8388606501816584698}
   m_Layer: 0
   m_Name: Enemy (51)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2616,7 +2616,7 @@ GameObject:
   - component: {fileID: 5519786034384984630}
   m_Layer: 0
   m_Name: Enemy (53)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2741,7 +2741,7 @@ GameObject:
   - component: {fileID: 7491794886020789942}
   m_Layer: 0
   m_Name: Enemy (37)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2866,7 +2866,7 @@ GameObject:
   - component: {fileID: 8354811250396599768}
   m_Layer: 0
   m_Name: Enemy (71)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2991,7 +2991,7 @@ GameObject:
   - component: {fileID: 8742888250227092757}
   m_Layer: 0
   m_Name: Enemy (22)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3116,7 +3116,7 @@ GameObject:
   - component: {fileID: 7272941236954783917}
   m_Layer: 0
   m_Name: Enemy (67)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3241,7 +3241,7 @@ GameObject:
   - component: {fileID: 5802429052400060162}
   m_Layer: 0
   m_Name: Enemy (47)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3366,7 +3366,7 @@ GameObject:
   - component: {fileID: 8485456157790351260}
   m_Layer: 0
   m_Name: Enemy (63)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3491,7 +3491,7 @@ GameObject:
   - component: {fileID: 979161585782356845}
   m_Layer: 0
   m_Name: Enemy (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3616,7 +3616,7 @@ GameObject:
   - component: {fileID: 5046051607231981805}
   m_Layer: 0
   m_Name: Enemy (62)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3741,7 +3741,7 @@ GameObject:
   - component: {fileID: 3600476736509003978}
   m_Layer: 0
   m_Name: Enemy (39)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3866,7 +3866,7 @@ GameObject:
   - component: {fileID: 99379486126495947}
   m_Layer: 0
   m_Name: Enemy (31)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3991,7 +3991,7 @@ GameObject:
   - component: {fileID: 6379307640572533358}
   m_Layer: 0
   m_Name: Enemy (4)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4116,7 +4116,7 @@ GameObject:
   - component: {fileID: 3540998208436598359}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4241,7 +4241,7 @@ GameObject:
   - component: {fileID: 8846256779724124693}
   m_Layer: 0
   m_Name: Enemy (50)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4366,7 +4366,7 @@ GameObject:
   - component: {fileID: 5679342059939783944}
   m_Layer: 0
   m_Name: Enemy (11)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4491,7 +4491,7 @@ GameObject:
   - component: {fileID: 7517028357871442971}
   m_Layer: 0
   m_Name: Enemy (59)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4616,7 +4616,7 @@ GameObject:
   - component: {fileID: 6558139420292654985}
   m_Layer: 0
   m_Name: Enemy (5)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4741,7 +4741,7 @@ GameObject:
   - component: {fileID: 6478572176987654755}
   m_Layer: 0
   m_Name: Enemy (48)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4866,7 +4866,7 @@ GameObject:
   - component: {fileID: 3368151823022799939}
   m_Layer: 0
   m_Name: Enemy (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4991,7 +4991,7 @@ GameObject:
   - component: {fileID: 8824775975581050620}
   m_Layer: 0
   m_Name: Enemy (33)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5116,7 +5116,7 @@ GameObject:
   - component: {fileID: 1223952943956048908}
   m_Layer: 0
   m_Name: Enemy (23)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5241,7 +5241,7 @@ GameObject:
   - component: {fileID: 6227777438540286468}
   m_Layer: 0
   m_Name: Enemy (19)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5366,7 +5366,7 @@ GameObject:
   - component: {fileID: 6369935882746226238}
   m_Layer: 0
   m_Name: Enemy (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5491,7 +5491,7 @@ GameObject:
   - component: {fileID: 207388009733266942}
   m_Layer: 0
   m_Name: Enemy (66)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5616,7 +5616,7 @@ GameObject:
   - component: {fileID: 1842084293794083641}
   m_Layer: 0
   m_Name: Enemy (58)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5741,7 +5741,7 @@ GameObject:
   - component: {fileID: 3391449233605435174}
   m_Layer: 0
   m_Name: Enemy (57)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5866,7 +5866,7 @@ GameObject:
   - component: {fileID: 1982755842390170524}
   m_Layer: 0
   m_Name: Enemy (61)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5991,7 +5991,7 @@ GameObject:
   - component: {fileID: 6063141217750817534}
   m_Layer: 0
   m_Name: Enemy (54)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6116,7 +6116,7 @@ GameObject:
   - component: {fileID: 6505339043280048317}
   m_Layer: 0
   m_Name: Enemy (34)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6241,7 +6241,7 @@ GameObject:
   - component: {fileID: 5174871919946457285}
   m_Layer: 0
   m_Name: Enemy (26)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6366,7 +6366,7 @@ GameObject:
   - component: {fileID: 8777933731816300310}
   m_Layer: 0
   m_Name: Enemy (70)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6491,7 +6491,7 @@ GameObject:
   - component: {fileID: 3766720006176164926}
   m_Layer: 0
   m_Name: Enemy (45)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6616,7 +6616,7 @@ GameObject:
   - component: {fileID: 6576229714768938480}
   m_Layer: 0
   m_Name: Enemy (69)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6741,7 +6741,7 @@ GameObject:
   - component: {fileID: 6482245907096164923}
   m_Layer: 0
   m_Name: Enemy (29)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6866,7 +6866,7 @@ GameObject:
   - component: {fileID: 1291137541714850000}
   m_Layer: 0
   m_Name: Enemy (13)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6991,7 +6991,7 @@ GameObject:
   - component: {fileID: 8522098877115240229}
   m_Layer: 0
   m_Name: Enemy (43)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7116,7 +7116,7 @@ GameObject:
   - component: {fileID: 3921531485228997304}
   m_Layer: 0
   m_Name: Enemy (30)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7241,7 +7241,7 @@ GameObject:
   - component: {fileID: 2994729676365251200}
   m_Layer: 0
   m_Name: Enemy (44)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7366,7 +7366,7 @@ GameObject:
   - component: {fileID: 1670285771800083788}
   m_Layer: 0
   m_Name: Enemy (9)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7491,7 +7491,7 @@ GameObject:
   - component: {fileID: 8823099149715467248}
   m_Layer: 0
   m_Name: Enemy (20)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7616,7 +7616,7 @@ GameObject:
   - component: {fileID: 42436483645747818}
   m_Layer: 0
   m_Name: Enemy (27)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7741,7 +7741,7 @@ GameObject:
   - component: {fileID: 7015236050660272295}
   m_Layer: 0
   m_Name: Enemy (55)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7866,7 +7866,7 @@ GameObject:
   - component: {fileID: 4581949749394949796}
   m_Layer: 0
   m_Name: Enemy (12)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7991,7 +7991,7 @@ GameObject:
   - component: {fileID: 8400764324812772568}
   m_Layer: 0
   m_Name: Enemy (35)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8116,7 +8116,7 @@ GameObject:
   - component: {fileID: 6241977001663163808}
   m_Layer: 0
   m_Name: Enemy (40)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8241,7 +8241,7 @@ GameObject:
   - component: {fileID: 3754115046483232752}
   m_Layer: 0
   m_Name: Enemy (42)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8366,7 +8366,7 @@ GameObject:
   - component: {fileID: 8215523925875460841}
   m_Layer: 0
   m_Name: Enemy (41)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8491,7 +8491,7 @@ GameObject:
   - component: {fileID: 4891806908529237851}
   m_Layer: 0
   m_Name: Enemy (21)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8616,7 +8616,7 @@ GameObject:
   - component: {fileID: 455878232571804387}
   m_Layer: 0
   m_Name: Enemy (36)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8741,7 +8741,7 @@ GameObject:
   - component: {fileID: 8486141386217171352}
   m_Layer: 0
   m_Name: Enemy (38)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8866,7 +8866,7 @@ GameObject:
   - component: {fileID: 659848858579524301}
   m_Layer: 0
   m_Name: Enemy (28)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8991,7 +8991,7 @@ GameObject:
   - component: {fileID: 7288617912492627769}
   m_Layer: 0
   m_Name: Enemy (52)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

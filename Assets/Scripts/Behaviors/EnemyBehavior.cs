@@ -11,7 +11,9 @@ public class EnemyBehavior : MonoBehaviour
     public float maxR;
     public float speed;
     float time = 0;
+
     int spawnTime;
+    int hp = 100;
 
     void Start()
     {
@@ -48,5 +50,22 @@ public class EnemyBehavior : MonoBehaviour
     int SpawnTime()
     {
         return Random.Range(1, 40);
+    }
+
+    void HitByBullet(int c)
+    {
+        hp -= c;
+        if (hp <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Bullet")
+        {
+            HitByBullet(50);
+        }
     }
 }
