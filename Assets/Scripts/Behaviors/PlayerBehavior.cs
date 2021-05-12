@@ -23,12 +23,6 @@ public class PlayerBehavior : MonoBehaviour
     void Update()
     {
         xPos = CrossPlatformInputManager.GetAxis("Horizontal");
-        xPos = Input.GetAxis("Horizontal");
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Shoot();
-        }
     }
 
     void FixedUpdate() 
