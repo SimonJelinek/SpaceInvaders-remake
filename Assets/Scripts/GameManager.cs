@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,6 +11,11 @@ public class GameManager : MonoBehaviour
     public GameObject obstacle;
     public Transform parent;
 
+    public TMP_Text gameoverCoinsTxt;
+    public TMP_Text winCoinsTxt;
+
+    int goCoins;
+    int winCoins;
     int enemiesAlive = 64;
 
     void Awake() 
@@ -65,6 +71,8 @@ public class GameManager : MonoBehaviour
         App.audioManager.PlaySound(5);
         ReturnToMenu();
         Debug.Log(App.inGameScreen.time);
+        CalculatePrize(true);
+        winCoinsTxt.text = winCoins.ToString();
     }
 
     public void GameOver()
@@ -74,7 +82,8 @@ public class GameManager : MonoBehaviour
         ReturnToMenu();
         App.audioManager.PlaySound(1);
         PlayerPrefs.SetFloat("Time", PlayerPrefs.GetFloat("Time") + App.inGameScreen.time);
-        Debug.Log(PlayerPrefs.GetFloat("Time"));
+        CalculatePrize(false);
+        gameoverCoinsTxt.text = goCoins.ToString();
     }
 
     public void ResetEnemiesAlive()
@@ -86,5 +95,31 @@ public class GameManager : MonoBehaviour
     {
         App.inGameScreen.time = 0;
         App.inGameScreen.t = 0;
+    }
+
+    void CalculatePrize(bool win)
+    {
+        float time = PlayerPrefs.GetFloat("Time");
+        int t = (int)time;
+        int c = PlayerPrefs.GetInt("Coins");
+
+        if (win)
+        {
+            if (time < 60)
+            {
+                PlayerPrefs.SetInt("Coins", t*2 + (c));
+                winCoins = t * 2;
+            }
+            else
+            {
+                PlayerPrefs.SetInt("Coins", t + c);
+                winCoins = t;
+            }
+        }
+        else
+        {
+            PlayerPrefs.SetInt("Coins", t*0 + c);
+            goCoins = t * 0;
+        }
     }
 }

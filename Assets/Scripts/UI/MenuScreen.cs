@@ -6,6 +6,7 @@ using TMPro;
 public class MenuScreen : ScreenBase
 {
     public TMP_Text timeTxt;
+    public TMP_Text coinsTxt;
 
     bool settings = false;
     bool shop = false;
@@ -59,5 +60,7 @@ public class MenuScreen : ScreenBase
         {
             App.screenManager.Hide<ShopScreen>();
         }
+
+        coinsTxt.text = PlayerPrefs.GetInt("Coins").ToString();
     }
 }
