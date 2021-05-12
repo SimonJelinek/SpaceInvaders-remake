@@ -16,6 +16,11 @@ public class MenuScreen : ScreenBase
         App.audioManager.PlaySound(4);
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
     public void ShowSettings()
     {
         App.audioManager.PlaySound(4);

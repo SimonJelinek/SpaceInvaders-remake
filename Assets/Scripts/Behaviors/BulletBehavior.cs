@@ -35,10 +35,6 @@ public class BulletBehavior : MonoBehaviour
             {
                 App.audioManager.PlaySound(3);
             }
-            else
-            {
-                App.audioManager.PlaySound(2);
-            }
         }
     }
 }

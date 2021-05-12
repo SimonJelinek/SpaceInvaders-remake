@@ -30,7 +30,10 @@ public class BulletEnemy: MonoBehaviour
     {
         if (collision.gameObject.tag == "Obstacle" || collision.gameObject.tag == "Player")
         {
-            App.audioManager.PlaySound(2);
+            if (collision.gameObject.tag == "Player")
+            {
+                App.audioManager.PlaySound(2);
+            }
             Destroy(gameObject);
         }
     }
