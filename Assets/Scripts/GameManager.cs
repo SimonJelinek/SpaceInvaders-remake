@@ -61,7 +61,8 @@ public class GameManager : MonoBehaviour
     {
         App.screenManager.Show<WinScreen>();
         App.screenManager.Hide<InGameScreen>();
-        ReturnToMenu();
+        App.audioManager.PlaySound(5);
+        ReturnToMenu();   
     }
 
     public void GameOver()
