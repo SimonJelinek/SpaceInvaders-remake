@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerBehavior : MonoBehaviour
 {
@@ -21,7 +22,7 @@ public class PlayerBehavior : MonoBehaviour
 
     void Update()
     {
-        xPos = Input.GetAxis("Horizontal");
+        xPos = CrossPlatformInputManager.GetAxis("Horizontal");
     }
 
     void FixedUpdate() 
