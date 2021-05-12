@@ -31,7 +31,14 @@ public class BulletBehavior : MonoBehaviour
         if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "Obstacle")
         {
             Destroy(gameObject);
-            App.audioManager.PlaySound(3);
+            if (collision.gameObject.tag == "Enemy")
+            {
+                App.audioManager.PlaySound(3);
+            }
+            else
+            {
+                App.audioManager.PlaySound(2);
+            }
         }
     }
 }

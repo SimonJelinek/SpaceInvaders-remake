@@ -46,7 +46,6 @@ public class PlayerBehavior : MonoBehaviour
         {
             App.gameManager.GameOver();
         }
-        App.audioManager.PlaySound(2);
     }
 
     public void Shoot()
