@@ -50,6 +50,7 @@ public class PlayerBehavior : MonoBehaviour
 
     public void Shoot()
     {
-        Instantiate(bullet, transform.position + offset, Quaternion.identity, App.gameManager.parent); 
+        Instantiate(bullet, transform.position + offset, Quaternion.identity, App.gameManager.parent);
+        App.audioManager.PlaySound(0);
     }
 }

@@ -8,4 +8,5 @@ public static class App
     public static ScreenManager screenManager;
     public static PlayerBehavior playerBehavior;
     public static InGameScreen inGameScreen;
+    public static AudioManager audioManager;
 }
