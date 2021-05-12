@@ -69,6 +69,7 @@ public class GameManager : MonoBehaviour
         App.screenManager.Show<GameOverScreen>();
         App.screenManager.Hide<InGameScreen>();
         ReturnToMenu();
+        App.audioManager.PlaySound(1);
     }
 
     public void ResetEnemiesAlive()

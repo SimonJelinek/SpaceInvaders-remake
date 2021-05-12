@@ -11,13 +11,15 @@ public class GameOverScreen : ScreenBase
         Hide();
         App.gameManager.ResetEnemiesAlive();
         App.inGameScreen.UpdateTxt();
+        App.audioManager.PlaySound(4);
     }
-  
+
     public void ReturnToMenu()
     {
         App.screenManager.Show<MenuScreen>();
         Hide();
         App.gameManager.ResetEnemiesAlive();
         App.inGameScreen.UpdateTxt();
+        App.audioManager.PlaySound(4);
     }
 }

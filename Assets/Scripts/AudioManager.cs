@@ -13,6 +13,9 @@ public class AudioManager : MonoBehaviour
 
     public void PlaySound(int n)
     {
-        sounds[n].Play();
+        if (PlayerPrefs.GetString("Audio")=="true")
+        {
+            sounds[n].Play();
+        }
     }
 }

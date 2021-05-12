@@ -13,11 +13,13 @@ public class MenuScreen : ScreenBase
         App.gameManager.StartGame();
         App.inGameScreen.UpdateTxt();
         App.screenManager.Hide<SettingsScreen>();
+        App.audioManager.PlaySound(4);
     }
 
     public void ShowSettings()
     {
-        settings =! settings;
+        App.audioManager.PlaySound(4);
+        settings = ! settings;
         if (settings)
         {
             App.screenManager.Show<SettingsScreen>();

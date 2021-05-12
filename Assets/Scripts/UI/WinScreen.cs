@@ -11,6 +11,7 @@ public class WinScreen : ScreenBase
         Hide();
         App.gameManager.ResetEnemiesAlive();
         App.inGameScreen.UpdateTxt();
+        App.audioManager.PlaySound(4);
     }
 
     public void ReturnToMenu()
@@ -19,5 +20,6 @@ public class WinScreen : ScreenBase
         Hide();
         App.gameManager.ResetEnemiesAlive();
         App.inGameScreen.UpdateTxt();
+        App.audioManager.PlaySound(4);
     }
 }
