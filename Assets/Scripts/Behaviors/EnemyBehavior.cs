@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyBehavior : MonoBehaviour
 {
     public GameObject bullet;
+    private Animator animator;
 
     int dir = -1;
     public float maxL;
@@ -14,6 +15,11 @@ public class EnemyBehavior : MonoBehaviour
 
     int spawnTime;
     int hp = 2;
+
+    void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     void Start()
     {
@@ -60,6 +66,7 @@ public class EnemyBehavior : MonoBehaviour
             Destroy(gameObject);
             App.gameManager.KillEnemy();
         }
+        animator.SetBool("Hit", true);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
