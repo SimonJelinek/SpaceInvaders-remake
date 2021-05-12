@@ -22,11 +22,6 @@ public class PlayerBehavior : MonoBehaviour
     void Update()
     {
         xPos = Input.GetAxis("Horizontal");
-
-        if (Input.GetKeyDown(KeyCode.Space)) 
-        {
-            Instantiate(bullet,transform.position+offset, Quaternion.identity, App.gameManager.parent);
-        }
     }
 
     void FixedUpdate() 
@@ -50,5 +45,10 @@ public class PlayerBehavior : MonoBehaviour
         {
             App.gameManager.GameOver();
         }
+    }
+
+    public void Shoot()
+    {
+        Instantiate(bullet, transform.position + offset, Quaternion.identity, App.gameManager.parent); 
     }
 }

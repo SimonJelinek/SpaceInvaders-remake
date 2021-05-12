@@ -21,4 +21,9 @@ public class InGameScreen : ScreenBase
     {
         hpTxt.text = App.playerBehavior.hp.ToString();
     }
+
+    public void OnShootClick()
+    {
+        App.playerBehavior.Shoot();
+    }
 }
