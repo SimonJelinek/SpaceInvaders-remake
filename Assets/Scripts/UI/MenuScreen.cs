@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class MenuScreen : ScreenBase
 {
+    public TMP_Text timeTxt;
+
     bool settings = false;
 
     public void StartGame() 
@@ -14,6 +17,7 @@ public class MenuScreen : ScreenBase
         App.inGameScreen.UpdateTxt();
         App.screenManager.Hide<SettingsScreen>();
         App.audioManager.PlaySound(4);
+        App.gameManager.ResetTime();
     }
 
     public void QuitGame()
@@ -34,5 +38,9 @@ public class MenuScreen : ScreenBase
         {
             App.screenManager.Hide<SettingsScreen>();
         }
+
+        float t = Mathf.Ceil(PlayerPrefs.GetFloat("Time"));
+        t = t / 60;
+        timeTxt.text = ((int)t).ToString() + " minutes played!";
     }
 }

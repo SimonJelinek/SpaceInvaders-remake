@@ -11,13 +11,13 @@ public class SettingsScreen : ScreenBase
 
     void Start()
     {
-        if (PlayerPrefs.GetString("Audio")=="true")
+        if (PlayerPrefs.GetString("Audio")=="false")
         {
-            btn.image.sprite = icons[0];
+            btn.image.sprite = icons[1];
         }
         else
         {
-            btn.image.sprite = icons[1];
+            btn.image.sprite = icons[0];
         }
     }
 
@@ -26,13 +26,13 @@ public class SettingsScreen : ScreenBase
         on = !on;
         if (on)
         {
-            btn.image.sprite = icons[0];
-            PlayerPrefs.SetString("Audio", "true");
+            btn.image.sprite = icons[1];
+            PlayerPrefs.SetString("Audio", "false");
         }
         else
         {
-            PlayerPrefs.SetString("Audio", "false");
-            btn.image.sprite = icons[1];
+            PlayerPrefs.SetString("Audio", "true");
+            btn.image.sprite = icons[0];
         }
     }
 }

@@ -6,6 +6,9 @@ using TMPro;
 public class InGameScreen : ScreenBase
 {
     public TMP_Text hpTxt;
+    public TMP_Text timeTxt;
+    public int time;
+    public float t;
 
     void Awake()
     {
@@ -15,6 +18,13 @@ public class InGameScreen : ScreenBase
     void Start()
     {
         UpdateTxt();
+    }
+
+    void Update()
+    {
+        t += Time.deltaTime;
+        time = (int)t;
+        timeTxt.text = time.ToString(); 
     }
 
     public void UpdateTxt()

@@ -62,7 +62,8 @@ public class GameManager : MonoBehaviour
         App.screenManager.Show<WinScreen>();
         App.screenManager.Hide<InGameScreen>();
         App.audioManager.PlaySound(5);
-        ReturnToMenu();   
+        ReturnToMenu();
+        Debug.Log(App.inGameScreen.time);
     }
 
     public void GameOver()
@@ -71,10 +72,18 @@ public class GameManager : MonoBehaviour
         App.screenManager.Hide<InGameScreen>();
         ReturnToMenu();
         App.audioManager.PlaySound(1);
+        PlayerPrefs.SetFloat("Time", PlayerPrefs.GetFloat("Time") + App.inGameScreen.time);
+        Debug.Log(PlayerPrefs.GetFloat("Time"));
     }
 
     public void ResetEnemiesAlive()
     {
         enemiesAlive = 64;
+    }
+
+    public void ResetTime()
+    {
+        App.inGameScreen.time = 0;
+        App.inGameScreen.t = 0;
     }
 }
