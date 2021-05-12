@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
         App.screenManager.Hide<GameOverScreen>();
         App.screenManager.Hide<WinScreen>();
         App.screenManager.Hide<SettingsScreen>();
+        App.screenManager.Hide<ShopScreen>();
     }
 
     public void StartGame() 

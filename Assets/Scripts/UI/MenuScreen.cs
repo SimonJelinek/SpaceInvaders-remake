@@ -8,6 +8,7 @@ public class MenuScreen : ScreenBase
     public TMP_Text timeTxt;
 
     bool settings = false;
+    bool shop = false;
 
     public void StartGame() 
     {       
@@ -28,6 +29,7 @@ public class MenuScreen : ScreenBase
 
     public void ShowSettings()
     {
+        App.screenManager.Hide<ShopScreen>();
         App.audioManager.PlaySound(4);
         settings = ! settings;
         if (settings)
@@ -42,5 +44,20 @@ public class MenuScreen : ScreenBase
         float t = Mathf.Ceil(PlayerPrefs.GetFloat("Time"));
         t = t / 60;
         timeTxt.text = ((int)t).ToString() + " minutes played!";
+    }
+
+    public void ShowShop()
+    {
+        App.screenManager.Hide<SettingsScreen>();
+        App.audioManager.PlaySound(4);
+        shop = !shop;
+        if (shop)
+        {
+            App.screenManager.Show<ShopScreen>();
+        }
+        else
+        {
+            App.screenManager.Hide<ShopScreen>();
+        }
     }
 }
