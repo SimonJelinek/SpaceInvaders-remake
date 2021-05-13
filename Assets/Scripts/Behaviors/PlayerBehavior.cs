@@ -41,6 +41,11 @@ public class PlayerBehavior : MonoBehaviour
     void Update()
     {
         xPos = CrossPlatformInputManager.GetAxis("Horizontal");
+        
+        if (Input.GetButtonDown("Jump"))
+        {
+            Shoot();
+        }
     }
 
     void FixedUpdate() 

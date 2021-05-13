@@ -34,8 +34,9 @@ public class GameManager : MonoBehaviour
         App.screenManager.Hide<SettingsScreen>();
         App.screenManager.Hide<ShopScreen>();
         //PlayerPrefs.SetString("Skins", "locked");        
-        //PlayerPrefs.SetInt("Coins", 9950);
+        //PlayerPrefs.SetInt("Coins", 0);
         //PlayerPrefs.SetString("Skin", "a");
+        //PlayerPrefs.SetFloat("Time", 0);
     }
 
     public void StartGame() 
