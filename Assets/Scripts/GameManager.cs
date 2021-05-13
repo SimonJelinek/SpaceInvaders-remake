@@ -102,18 +102,39 @@ public class GameManager : MonoBehaviour
         float time = PlayerPrefs.GetFloat("Time");
         int t = (int)time;
         int c = PlayerPrefs.GetInt("Coins");
+        int p = App.inGameScreen.time;
 
         if (win)
         {
-            if (time < 60)
+            if (p < 40)
             {
-                PlayerPrefs.SetInt("Coins", t*2 + (c));
-                winCoins = t * 2;
+                PlayerPrefs.SetInt("Coins", c + 500);
+                winCoins = 500;
+            }
+            else if (p < 45)
+            {
+                PlayerPrefs.SetInt("Coins", c + 450);
+                winCoins = 450;
+            }
+            else if (p < 50)
+            {
+                PlayerPrefs.SetInt("Coins", c + 400);
+                winCoins = 400;
+            }
+            else if (p < 55)
+            {
+                PlayerPrefs.SetInt("Coins", c + 350);
+                winCoins = 350;
+            }
+            else if (p < 60)
+            {
+                PlayerPrefs.SetInt("Coins", c + 300);
+                winCoins = 300;
             }
             else
             {
-                PlayerPrefs.SetInt("Coins", t + c);
-                winCoins = t;
+                PlayerPrefs.SetInt("Coins", c + 50);
+                winCoins = 50;
             }
         }
         else
