@@ -51,8 +51,9 @@ public class ShopScreen : ScreenBase
     {
         PlayerPrefs.SetString("Skins", "unlocked");
         PlayerPrefs.SetInt("Coins", PlayerPrefs.GetInt("Coins") - 10000);
+        PlayerPrefs.SetString("Skins", "green");
         App.menuScreen.UpdateTxt();
-        SetB();
+        SetButtons();
     }
 
     void SetB()
