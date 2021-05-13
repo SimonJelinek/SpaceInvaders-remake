@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class GameManager : MonoBehaviour
@@ -13,6 +14,7 @@ public class GameManager : MonoBehaviour
 
     public TMP_Text gameoverCoinsTxt;
     public TMP_Text winCoinsTxt;
+    public Sprite[] skins;
 
     int goCoins;
     int winCoins;
@@ -31,6 +33,9 @@ public class GameManager : MonoBehaviour
         App.screenManager.Hide<WinScreen>();
         App.screenManager.Hide<SettingsScreen>();
         App.screenManager.Hide<ShopScreen>();
+        //PlayerPrefs.SetString("Skins", "locked");        
+        //PlayerPrefs.SetInt("Coins", 9950);
+        //PlayerPrefs.SetString("Skin", "a");
     }
 
     public void StartGame() 
