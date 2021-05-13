@@ -4152,7 +4152,7 @@ GameObject:
   - component: {fileID: 1168860855}
   - component: {fileID: 1168860854}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Button_Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4219,7 +4219,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1168860855}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2136384141}
+        m_MethodName: SelectSkin
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1168860855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5875,7 +5886,7 @@ GameObject:
   - component: {fileID: 1602839691}
   - component: {fileID: 1602839690}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Button_Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5942,7 +5953,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1602839691}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2136384141}
+        m_MethodName: SelectSkin
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1602839691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6964,7 +6986,7 @@ GameObject:
   - component: {fileID: 2031324783}
   - component: {fileID: 2031324782}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Button_Orange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7031,7 +7053,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2031324783}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2136384141}
+        m_MethodName: SelectSkin
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2031324783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7317,7 +7350,7 @@ GameObject:
   - component: {fileID: 2124444573}
   - component: {fileID: 2124444572}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: Button_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7384,7 +7417,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2124444573}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2136384141}
+        m_MethodName: SelectSkin
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2124444573
 MonoBehaviour:
   m_ObjectHideFlags: 0

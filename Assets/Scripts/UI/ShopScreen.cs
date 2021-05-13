@@ -57,4 +57,24 @@ public class ShopScreen : ScreenBase
             coinsObj.SetActive(true);
         }
     }
+
+    public void SelectSkin(int c)
+    {
+        if (c==0)
+        {
+            Debug.Log("Green");
+        }
+        if (c==1)
+        {
+            Debug.Log("Blue");
+        }
+        if (c==2)
+        {
+            Debug.Log("Orange");
+        }
+        if (c==3)
+        {
+            Debug.Log("Red");
+        }
+    }
 }
