@@ -7,7 +7,7 @@ public class PlayerBehavior : MonoBehaviour
 {
     public GameObject bullet;
     private Rigidbody2D rb;
-
+    private SpriteRenderer sr;
     public Vector3 offset;
     public float speed;
     float xPos;
@@ -17,7 +17,25 @@ public class PlayerBehavior : MonoBehaviour
     void Awake() 
     {
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponent<SpriteRenderer>();
         App.playerBehavior = this;
+
+        if (PlayerPrefs.GetString("Skin")=="green")
+        {
+            sr.sprite = App.gameManager.skins[0];
+        }
+        if (PlayerPrefs.GetString("Skin") == "blue")
+        {
+            sr.sprite = App.gameManager.skins[1];
+        }
+        if (PlayerPrefs.GetString("Skin") == "orange")
+        {
+            sr.sprite = App.gameManager.skins[2];
+        }
+        if (PlayerPrefs.GetString("Skin") == "red")
+        { 
+            sr.sprite = App.gameManager.skins[3];
+        }
     }
 
     void Update()

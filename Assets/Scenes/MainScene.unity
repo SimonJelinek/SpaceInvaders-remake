@@ -570,6 +570,11 @@ MonoBehaviour:
   parent: {fileID: 206469284}
   gameoverCoinsTxt: {fileID: 1362348191}
   winCoinsTxt: {fileID: 1607202621}
+  skins:
+  - {fileID: 21300000, guid: ccc2e3abb5a3200498f282888b1773dd, type: 3}
+  - {fileID: 21300000, guid: 6fdb6597d6ee50c4cba50061159e5531, type: 3}
+  - {fileID: 21300000, guid: 370f7f95e1490324a9ceefdb28290269, type: 3}
+  - {fileID: 21300000, guid: 06abe10159afc7244935ade49f626b18, type: 3}
 --- !u!4 &132474258
 Transform:
   m_ObjectHideFlags: 0

@@ -62,19 +62,19 @@ public class ShopScreen : ScreenBase
     {
         if (c==0)
         {
-            Debug.Log("Green");
+            PlayerPrefs.SetString("Skin", "green");
         }
         if (c==1)
         {
-            Debug.Log("Blue");
+            PlayerPrefs.SetString("Skin", "blue");
         }
         if (c==2)
         {
-            Debug.Log("Orange");
+            PlayerPrefs.SetString("Skin", "orange");
         }
         if (c==3)
         {
-            Debug.Log("Red");
+            PlayerPrefs.SetString("Skin", "red");
         }
     }
 }
