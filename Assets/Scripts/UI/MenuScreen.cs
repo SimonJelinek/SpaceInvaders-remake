@@ -11,6 +11,11 @@ public class MenuScreen : ScreenBase
     bool settings = false;
     bool shop = false;
 
+    void Awake()
+    {
+        App.menuScreen = this;
+    }
+
     public void StartGame() 
     {       
         App.screenManager.Show<InGameScreen>();
@@ -18,6 +23,7 @@ public class MenuScreen : ScreenBase
         App.gameManager.StartGame();
         App.inGameScreen.UpdateTxt();
         App.screenManager.Hide<SettingsScreen>();
+        App.screenManager.Hide<ShopScreen>();
         App.audioManager.PlaySound(4);
         App.gameManager.ResetTime();
     }
@@ -61,6 +67,12 @@ public class MenuScreen : ScreenBase
             App.screenManager.Hide<ShopScreen>();
         }
 
+        coinsTxt.text = PlayerPrefs.GetInt("Coins").ToString();
+        App.shopScreen.SetButtons();
+    }
+
+    public void UpdateTxt()
+    {
         coinsTxt.text = PlayerPrefs.GetInt("Coins").ToString();
     }
 }
