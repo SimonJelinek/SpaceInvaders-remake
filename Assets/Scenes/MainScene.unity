@@ -1345,7 +1345,7 @@ GameObject:
   m_Component:
   - component: {fileID: 275982361}
   m_Layer: 0
-  m_Name: CurrentSkinObj
+  m_Name: SkinObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
