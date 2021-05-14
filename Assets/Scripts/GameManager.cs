@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.SetInt("Coins", 0);
         //PlayerPrefs.SetInt("Coins", 10000);
         PlayerPrefs.SetString("Skin", "a");
-        PlayerPrefs.SetFloat("Time", 0);
+        //PlayerPrefs.SetFloat("Time", 0);
         PlayerPrefs.SetString("Skin", "m");
     }
 

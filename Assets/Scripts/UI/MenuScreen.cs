@@ -48,9 +48,8 @@ public class MenuScreen : ScreenBase
             App.screenManager.Hide<SettingsScreen>();
         }
 
-        float t = Mathf.Ceil(PlayerPrefs.GetFloat("Time"));
-        t = t / 60;
-        timeTxt.text = ((int)t).ToString() + " minutes played!";
+        float t = PlayerPrefs.GetFloat("Time");
+        timeTxt.text = ((int)t).ToString() + " seconds played!";
     }
 
     public void ShowShop()
