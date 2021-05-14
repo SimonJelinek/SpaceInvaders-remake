@@ -33,12 +33,13 @@ public class GameManager : MonoBehaviour
         App.screenManager.Hide<WinScreen>();
         App.screenManager.Hide<SettingsScreen>();
         App.screenManager.Hide<ShopScreen>();
-        //PlayerPrefs.SetString("Skins", "locked");        
-        //PlayerPrefs.SetInt("Coins", 0);
+        
+        PlayerPrefs.SetString("Skins", "locked");        
+        PlayerPrefs.SetInt("Coins", 0);
         //PlayerPrefs.SetInt("Coins", 10000);
-        //PlayerPrefs.SetString("Skin", "a");
-        //PlayerPrefs.SetFloat("Time", 0);
-        //PlayerPrefs.SetString("Skin", "m");
+        PlayerPrefs.SetString("Skin", "a");
+        PlayerPrefs.SetFloat("Time", 0);
+        PlayerPrefs.SetString("Skin", "m");
     }
 
     void Update()

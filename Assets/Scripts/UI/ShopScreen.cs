@@ -19,39 +19,27 @@ public class ShopScreen : ScreenBase
 
     public void SetButtons()
     {
-        SetB();
-        ShowCurrentSkin();
-        if (PlayerPrefs.GetString("Skins")=="unlocked")
+        string s = PlayerPrefs.GetString("Skins");
+        Debug.Log(s);
+        if (s=="unlocked") 
         {
             skinsObj.SetActive(true);
-            if (PlayerPrefs.GetString("Skin")=="green")
-            {
-                image.sprite = skins[0];
-            }
-            if (PlayerPrefs.GetString("Skin") == "blue")
-            {
-                image.sprite = skins[1];
-            }
-            if (PlayerPrefs.GetString("Skin") == "orange")
-            {
-                image.sprite = skins[2];
-            }
-            if (PlayerPrefs.GetString("Skin") == "red")
-            {
-                image.sprite = skins[3];
-            }
+            coinsObj.SetActive(false);
         }
-        else
+        else 
         {
             skinsObj.SetActive(false);
+            coinsObj.SetActive(true);
         }
+        SetB();
     }
 
     public void BuyButton()
     {
         PlayerPrefs.SetString("Skins", "unlocked");
+        PlayerPrefs.SetString("Skin", "green");
+        image.sprite = skins[0];
         PlayerPrefs.SetInt("Coins", PlayerPrefs.GetInt("Coins") - 10000);
-        PlayerPrefs.SetString("Skins", "green");
         App.menuScreen.UpdateTxt();
         SetButtons();
     }
@@ -109,28 +97,6 @@ public class ShopScreen : ScreenBase
         {
             PlayerPrefs.SetString("Skin", "red");
             image.sprite = skins[3];
-        }
-        ShowCurrentSkin();
-    }
-
-    public void ShowCurrentSkin()
-    {
-        string skin = PlayerPrefs.GetString("Skin");
-        if (skin=="green")
-        {
-            Debug.Log("Green");
-        }
-        if (skin == "blue")
-        {
-            Debug.Log("blue");
-        }
-        if (skin == "orange")
-        {
-            Debug.Log("orange");
-        }
-        if (skin == "red")
-        {
-            Debug.Log("red");
         }
     }
 }
