@@ -60,6 +60,7 @@ public class MenuScreen : ScreenBase
         if (shop)
         {
             App.screenManager.Show<ShopScreen>();
+
         }
         else
         {

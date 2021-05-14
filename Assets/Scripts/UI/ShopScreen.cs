@@ -17,6 +17,27 @@ public class ShopScreen : ScreenBase
         App.shopScreen = this;
     }
 
+    void Start() 
+    {
+        if (PlayerPrefs.GetString("Skin")=="green")
+        {
+            image.sprite = skins[0];
+
+        }
+        if (PlayerPrefs.GetString("Skin")=="blue")
+        {
+            image.sprite = skins[1];
+        }
+        if (PlayerPrefs.GetString("Skin")=="orange")
+        {
+            image.sprite = skins[2];
+        }
+        if (PlayerPrefs.GetString("Skin")=="red")
+        {
+            image.sprite = skins[3];
+        }
+    }
+
     public void SetButtons()
     {
         string s = PlayerPrefs.GetString("Skins");
