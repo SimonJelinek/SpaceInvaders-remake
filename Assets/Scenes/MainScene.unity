@@ -5312,8 +5312,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 46, y: -73}
-  m_SizeDelta: {x: 0, y: 219.92102}
+  m_AnchoredPosition: {x: 84, y: -0.3305664}
+  m_SizeDelta: {x: -576.22485, y: 479.2224}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1262340402
 MonoBehaviour:
@@ -5334,7 +5334,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Menu
+  m_text: Space Invaders
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 67806c5ea15f436998779b2e07df73ec, type: 2}
   m_sharedMaterial: {fileID: 8068615933549993264, guid: 67806c5ea15f436998779b2e07df73ec,
